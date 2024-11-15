@@ -1,15 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+
 <Shell
     x:Class="MoipaUI.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:MoipaUI"
-    Shell.FlyoutBehavior="Disabled"
-    Title="MoipaUI">
+    xmlns:views="clr-namespace:MoipaUI.Views"
+    Title="MoipaUI"
+    >
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-
+        Title="登录"
+        ContentTemplate="{DataTemplate local:LoginPage}"
+        Route="LoginPage"/>
+    
+    <TabBar Route="DashboardPage" 
+            FlyoutDisplayOptions="AsMultipleItems" 
+            FlyoutItemIsVisible="True" 
+            Shell.NavBarIsVisible="False"
+            Shell.TabBarTitleColor="Blue"
+            Shell.TabBarForegroundColor="Blue">
+        <!-- 隐藏标题栏  NavBarIsVisible-->
+        
+        <ShellContent
+            Title="首页" Icon="home.png"
+            ContentTemplate="{DataTemplate views:DashboardPage}" 
+            />
+        
+        <ShellContent
+            Title="功能" Icon="analyse.png"
+            ContentTemplate="{DataTemplate views:DashboardPage}" 
+        />
+        
+        <ShellContent
+            Title="消息" Icon="message.png"
+            ContentTemplate="{DataTemplate views:DashboardPage}" 
+        />
+        
+        <ShellContent
+            Title="我的" Icon="user.png"
+            ContentTemplate="{DataTemplate views:UserPage}" 
+            FlyoutItemIsVisible="False"
+        />
+    </TabBar>
+    
 </Shell>

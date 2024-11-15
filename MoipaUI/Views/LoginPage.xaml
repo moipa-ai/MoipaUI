@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MoipaUI.LoginPage"
+             Shell.NavBarIsVisible="False"
+             xmlns:viewmodel="clr-namespace:MoipaUI.ViewModels"
+             x:DataType="viewmodel:LoginPageViewModel"
+             Title="LoginPage">
+    <VerticalStackLayout
+        Spacing="25"
+        Padding="10,0"
+        VerticalOptions="Center">
+
+        <VerticalStackLayout Spacing="5">
+            <Label Text="欢迎来到MoipaUI" FontSize="28" TextColor="Blue" HorizontalTextAlignment="Center" />
+            <Label Text="请登录你的账号" FontSize="18" TextColor="Gray" HorizontalTextAlignment="Center" />
+        </VerticalStackLayout>
+        
+       <!-- 账号框 -->
+        <StackLayout Orientation="Horizontal">
+            <Frame ZIndex="1" HasShadow="True" BorderColor="White" HeightRequest="56" WidthRequest="56"
+                   CornerRadius="28">
+                <Image Source="user.png" HeightRequest="20" WidthRequest="20" />
+            </Frame>
+            <Frame HeightRequest="45" Margin="-20,0,0,0" Padding="0" HasShadow="True" BorderColor="White"
+                   HorizontalOptions="FillAndExpand">
+                <Entry Text="{Binding UserName}" Margin="20,0,0,0" VerticalOptions="Center"
+                                          Placeholder="账号" Keyboard="Email" />
+            </Frame>
+        </StackLayout>
+       
+       <!-- 密码框 -->
+        <StackLayout Orientation="Horizontal">
+            <Frame ZIndex="1" HasShadow="True" BorderColor="White" HeightRequest="56" WidthRequest="56"
+                   CornerRadius="28">
+                <Image Source="password.png" HeightRequest="20" WidthRequest="20" />
+            </Frame>
+            <Frame HeightRequest="45" Margin="-20,0,0,0" Padding="0" HasShadow="True" BorderColor="White"
+                   HorizontalOptions="FillAndExpand">
+                <Entry Text="{Binding PassWord}" Margin="20,0,0,0" VerticalOptions="Center"
+                                          Placeholder="密码" IsPassword="True" />
+            </Frame>
+        </StackLayout>
+
+        <Button Text="登录" WidthRequest="100" CornerRadius="20" HorizontalOptions="Center"
+                Command="{Binding LoginCommand}" />
+
+        <StackLayout Orientation="Horizontal" Spacing="5" HorizontalOptions="Center">
+            <Label Text="没有账号?" TextColor="Gray" />
+            <Label Text="点击登录会自动创建账号" TextColor="#50b3f2" />
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,4 +1,6 @@
-﻿namespace MoipaUI;
+﻿using Microsoft.Maui.Controls;
+
+namespace MoipaUI;
 
 public partial class App : Application
 {
@@ -7,5 +9,6 @@ public partial class App : Application
         InitializeComponent();
 
         MainPage = new AppShell();
+        //MainPage =new  LoginPage();
     }
 }
