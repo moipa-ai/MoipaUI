@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0938e228-6919-4d72-9c47-2110fce62223" name="更改" comment="first" />
+    <list default="true" id="0938e228-6919-4d72-9c47-2110fce62223" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/MoipaUI/Models/MqttModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MoipaUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MoipaUI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoipaUI.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MoipaUI.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoipaUI/MauiProgram.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MoipaUI/MauiProgram.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoipaUI/Models/DashboardView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoipaUI/MoipaUI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MoipaUI/MoipaUI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoipaUI/Servers/IMqttServer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MoipaUI/IServers/IMqttServer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoipaUI/Servers/MqttServer.cs" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,18 +22,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="MoipaUI/invalid/Android Facet - MoipaUI" />
+    </ignored-facets>
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2otEspIgOQnuEgzlh1FEAydMRBZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Android.MoipaUI.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -32,7 +52,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="iOS.MoipaUI">
+  <component name="RunManager" selected="UWP.MoipaUI">
     <configuration name="MoipaUI" type="UwpProject" factoryName="UWP">
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/MoipaUI/MoipaUI.csproj" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -75,6 +95,12 @@
       <option name="presentableId" value="Default" />
       <updated>1731680680602</updated>
       <workItem from="1731680681667" duration="298000" />
+      <workItem from="1731725179036" duration="1266000" />
+      <workItem from="1731726799522" duration="1694000" />
+      <workItem from="1731733121889" duration="1115000" />
+      <workItem from="1731737006924" duration="558000" />
+      <workItem from="1731746816593" duration="1319000" />
+      <workItem from="1731765716013" duration="546000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -92,6 +118,17 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="first" />

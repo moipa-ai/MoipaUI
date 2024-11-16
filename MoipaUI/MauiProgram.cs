@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using MoipaUI.Models;
 using MoipaUI.Servers;
 using MoipaUI.ViewModels;
 using MoipaUI.Views;
@@ -29,7 +30,7 @@ public static class MauiProgram
         builder.Services.AddSingleton<DashboardPage>();
         builder.Services.AddSingleton<DashboardPageViewModel>();
         builder.Services.AddSingleton<UserPageViewModel>();
-        builder.Services.AddSingleton<IMqttServer, MqttServer>();
+        builder.Services.AddSingleton<IMqttServer, MqttModel>();
 
 
         return builder.Build();
