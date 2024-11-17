@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
+using MoipaUI.IServers;
 using MoipaUI.Models;
-using MoipaUI.Servers;
 using MoipaUI.ViewModels;
 using MoipaUI.Views;
 

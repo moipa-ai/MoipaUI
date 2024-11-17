@@ -77,5 +77,16 @@
                    VerticalOptions="Center" Margin="10"/>
         </Grid>
 
+           <HorizontalStackLayout Margin="10" Spacing="10">
+           <Button Text="正转" 
+                        CommandParameter="forward"
+                        Command="{Binding PublishMessageCommand}"/>
+           <Button Text="反转" 
+                   CommandParameter="reverse"
+                   Command="{Binding PublishMessageCommand}"/>
+           <Button Text="停止" 
+                   CommandParameter="stop"
+                   Command="{Binding PublishMessageCommand}"/>
+           </HorizontalStackLayout>
     </VerticalStackLayout>
 </ContentPage>
