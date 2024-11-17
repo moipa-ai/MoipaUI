@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0938e228-6919-4d72-9c47-2110fce62223" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/MoipaUI/Models/MqttModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MoipaUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MoipaUI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoipaUI.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MoipaUI.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoipaUI/MauiProgram.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MoipaUI/MauiProgram.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoipaUI/Models/DashboardView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoipaUI/MoipaUI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MoipaUI/MoipaUI.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoipaUI/Servers/IMqttServer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MoipaUI/IServers/IMqttServer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoipaUI/Servers/MqttServer.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +15,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "moipa-ai"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/moipa-ai/MoipaUI.git",
+    "accountId": "1fed9ec3-3d1f-4ca0-aad3-d73afce3c0fb"
+  }
+}]]></component>
   <component name="InvalidFacetManager">
     <ignored-facets>
       <facet id="MoipaUI/invalid/Android Facet - MoipaUI" />
@@ -39,20 +44,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Android.MoipaUI.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Android.MoipaUI.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "UWP.MoipaUI.executor": "Run",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="UWP.MoipaUI">
+}]]></component>
+  <component name="RunManager" selected="Android.MoipaUI">
     <configuration name="MoipaUI" type="UwpProject" factoryName="UWP">
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/MoipaUI/MoipaUI.csproj" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -101,6 +107,7 @@
       <workItem from="1731737006924" duration="558000" />
       <workItem from="1731746816593" duration="1319000" />
       <workItem from="1731765716013" duration="546000" />
+      <workItem from="1731841618204" duration="379000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
