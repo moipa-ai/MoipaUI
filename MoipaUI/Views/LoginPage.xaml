@@ -16,8 +16,8 @@
             <Label Text="欢迎来到MoipaUI" FontSize="28" TextColor="Blue" HorizontalTextAlignment="Center" />
             <Label Text="请登录你的账号" FontSize="18" TextColor="Gray" HorizontalTextAlignment="Center" />
         </VerticalStackLayout>
-        
-       <!-- 账号框 -->
+
+        <!-- 账号框 -->
         <StackLayout Orientation="Horizontal">
             <Frame ZIndex="1" HasShadow="True" BorderColor="White" HeightRequest="56" WidthRequest="56"
                    CornerRadius="28">
@@ -29,8 +29,8 @@
                                           Placeholder="账号" Keyboard="Email" />
             </Frame>
         </StackLayout>
-       
-       <!-- 密码框 -->
+
+        <!-- 密码框 -->
         <StackLayout Orientation="Horizontal">
             <Frame ZIndex="1" HasShadow="True" BorderColor="White" HeightRequest="56" WidthRequest="56"
                    CornerRadius="28">
@@ -42,6 +42,32 @@
                                           Placeholder="密码" IsPassword="True" />
             </Frame>
         </StackLayout>
+
+        <!-- 验证码框 -->
+      
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Entry Grid.Column="0" Text="{Binding KeyStr}" Margin="20,0,0,0" VerticalOptions="Start"  WidthRequest="200"
+                      Placeholder="验证码" />
+
+            <ImageButton Grid.Column="1" Source="{Binding ImgStr}"
+                 HeightRequest="50" WidthRequest="200"
+                Command="{Binding CaptchaGetCommand}"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+            
+        </Grid>
+
+        
 
         <Button Text="登录" WidthRequest="100" CornerRadius="20" HorizontalOptions="Center"
                 Command="{Binding LoginCommand}" />
